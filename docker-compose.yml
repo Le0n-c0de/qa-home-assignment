@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  tests:
+    # Tells Docker Compose to build an image using the Dockerfile in the current directory.
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # This maps a 'test-results' folder from your local machine to the
+      # '/src/test-results' folder inside the container. When the tests finish,
+      # the result files will be available on your computer.
+      - ./test-results:/src/test-results
+
