@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardValidation.Core", "Card
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardValidation.Core.UnitTests", "CardValidation.Core.UnitTests\CardValidation.Core.UnitTests.csproj", "{36532778-F7EC-46F7-88D3-371FF2D8393D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardValidation.Web.IntegrationTests", "CardValidation.Web.IntegrationTests\CardValidation.Web.IntegrationTests.csproj", "{EFBDC257-F661-459F-8827-1F4945479F91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{36532778-F7EC-46F7-88D3-371FF2D8393D}.Release|x64.Build.0 = Release|Any CPU
 		{36532778-F7EC-46F7-88D3-371FF2D8393D}.Release|x86.ActiveCfg = Release|Any CPU
 		{36532778-F7EC-46F7-88D3-371FF2D8393D}.Release|x86.Build.0 = Release|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Debug|x64.Build.0 = Debug|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Release|x64.ActiveCfg = Release|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Release|x64.Build.0 = Release|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFBDC257-F661-459F-8827-1F4945479F91}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

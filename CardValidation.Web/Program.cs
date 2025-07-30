@@ -36,3 +36,6 @@ void ConfigureServices(IServiceCollection services)
         options.Filters.Add(typeof(CreditCardValidationFilter)); ;
     });
 }
+
+public partial class Program { }
+
